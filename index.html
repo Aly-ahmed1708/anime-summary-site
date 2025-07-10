@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Anime Episode Summary Website</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Anime Episode Summary Website</h1>
+    <button id="dark-mode-toggle">Toggle Dark Mode</button>
+    <button id="toggle-episodes-btn">Show Episode Conclusions</button>
+    <button id="reset-btn">Reset Defaults</button>
+  </header>
+
+  <main>
+    <input type="text" id="search-input" placeholder="Search characters..." />
+
+    <section id="main-characters">
+      <h2>Main Characters</h2>
+      <div id="character-container"></div>
+    </section>
+
+    <section id="episodes-section" style="display:none;">
+      <h2>Episode Conclusions</h2>
+      <select id="episode-anime-select"><option value="">-- Select Anime --</option></select>
+      <div id="episode-list"></div>
+      <button id="add-episode-btn">Add Episode Conclusion</button>
+    </section>
+
+    <section id="character-form-section" style="display:none;">
+      <h2>Add New Character</h2>
+      <form id="character-form">
+        <input id="anime-name" type="text" placeholder="Anime Name" required />
+        <input id="character-name" type="text" placeholder="Character Name" required />
+        <input id="image-link" type="text" placeholder="Image URL" required />
+        <textarea id="character-bio" placeholder="Short Bio" rows="3" required></textarea>
+        <button type="submit">Add Character</button>
+      </form>
+    </section>
+
+    <section id="episode-form-section" style="display:none;">
+      <h2>Add Episode Conclusion</h2>
+      <form id="episode-form">
+        <input id="ep-anime" type="text" placeholder="Anime Name" required />
+        <input id="ep-number" type="number" placeholder="Episode #" required />
+        <input id="ep-en" type="text" placeholder="Conclusion (English)" required />
+        <input id="ep-ar" type="text" placeholder="Conclusion (Arabic)" required />
+        <button type="submit">Add Episode</button>
+      </form>
+    </section>
+  </main>
+
+  <button id="add-character-btn">➕</button>
+
+  <div id="char-modal-overlay" class="hidden">
+    <div id="char-modal-box">
+      <span id="char-modal-close">✖</span>
+      <img id="modal-img" alt="Character Image">
+      <h2 id="modal-name"></h2>
+      <h4 id="modal-anime"></h4>
+      <p id="modal-bio"></p>
+      <h4>Comments:</h4>
+      <div id="modal-comments"></div>
+      <form id="modal-comment-form">
+        <input id="modal-comment-input" type="text" placeholder="Add comment" required />
+        <button type="submit">Add</button>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Anime Episode Summary. All rights reserved.</p>
+    <p>Made by Aly Tealeb</p>
+    <p>© 2025 Anime Episode Summary. All rights reserved.</p>
+  <p>Made by Aly Tealeb | 
+    <a href="privacy.html">Privacy Policy</a> | 
+    <a href="contact.html">Contact</a>
+  </p>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
