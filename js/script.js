@@ -27,7 +27,11 @@ const defaults = {
   },
   "Demon Slayer": {
     main: { name: "Tanjiro Kamado", img: "images/demon-slayer-paint-by-numbers.jpg", bio: "Determined demon slayer..." },
-    episodes: { /* same as before */ }
+    episodes: {       1: { en: "Tanjiro's family attacked.", ar: "عائلة تانجيرو تتعرض لهجوم." },
+      2: { en: "Tanjiro begins training.", ar: "تانجيرو يبدأ التدريب." },
+      3: { en: "Meet Nezuko.", ar: "لقاء نيزيكو." },
+      4: { en: "Fight with demons.", ar: "القتال مع الشياطين." },
+      5: { en: "Hashira introduced.", ar: "تعريف الهاشيرا." } }
   },
   "Attack on Titan": {
     main: { name: "Eren Yeager", img: "images/Eren.webp", bio: "Vengeful warrior..." },
