@@ -19,7 +19,11 @@ const defaults = {
   },
   "Death Note": {
     main: { name: "Light Yagami", img: "images/light yagami.webp", bio: "High school genius..." },
-    episodes: { /* same as before */ }
+    episodes: {       1: { en: "Light finds Death Note.", ar: "يجد لايت دفتر الموت." },
+      2: { en: "Kira appears.", ar: "ظهور كيرا." },
+      3: { en: "L starts investigation.", ar: "إل يبدأ التحقيق." },
+      4: { en: "Light confronts L.", ar: "لايت يواجه إل." },
+      5: { en: "Near joins case.", ar: "انضمام نير للقضية." } }
   },
   "Demon Slayer": {
     main: { name: "Tanjiro Kamado", img: "images/demon-slayer-paint-by-numbers.jpg", bio: "Determined demon slayer..." },
