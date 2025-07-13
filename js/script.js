@@ -11,7 +11,11 @@ const defaults = {
   },
   "One Piece": {
     main: { name: "Monkey D. Luffy", img: "images/luffy.png", bio: "Rubber-powered pirate..." },
-    episodes: { /* same as before */ }
+    episodes: {       1: { en: "Luffy sets sail.", ar: "لوفي يبدأ رحلته." },
+      2: { en: "Meet Zoro.", ar: "لقاء زورو." },
+      3: { en: "Nami joins crew.", ar: "انضمام نامي." },
+      4: { en: "Battle at Baratie.", ar: "معركة في باراتي." },
+      5: { en: "Captain fights Mihawk.", ar: "الكابتن يقاتل ميهوك." } }
   },
   "Death Note": {
     main: { name: "Light Yagami", img: "images/light yagami.webp", bio: "High school genius..." },
