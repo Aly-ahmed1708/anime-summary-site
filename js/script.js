@@ -6,7 +6,7 @@ const defaults = {
       2: { en: "Team 7 is formed.", ar: "تشكيل الفريق 7." },
       3: { en: "Training starts.", ar: "يبدأ التدريب." },
       4: { en: "Mission begins.", ar: "تبدأ المهمة." },
-      5: { en: "Zabuza appears.", ar: "ظهور زابوزا." }
+      5: { en: "Zabuza appears", ar: "ظهور زابوزا." }
     }
   },
   "One Piece": {
