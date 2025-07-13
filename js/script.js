@@ -39,7 +39,7 @@ const defaults = {
       2: { en: "Eren joins Survey Corps.", ar: "إرين ينضم لفيلق الاستطلاع." },
       3: { en: "Battle inside Trost.", ar: "المعركة داخل تروست." },
       4: { en: "Eren transforms.", ar: "إرين يتحول." },
-      5: { en: "Titans retreat.", ar: "انسحاب العمالقة." }}
+      5: { en: "Titans retreat.", ar: "انسحاب العمالقة." }
   }
 };
 
